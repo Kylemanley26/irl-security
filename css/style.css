@@ -107,9 +107,9 @@ nav {
 .d20-icon {
     height: 3vh;
     width: auto;
-    filter: drop-shadow(0 0 3px rgba(0, 136, 255, 0.8))
-            drop-shadow(0 0 6px rgba(0, 136, 255, 0.5));
     animation: float 3s ease-in-out infinite;
+    opacity: 0.9;
+    mix-blend-mode: screen;
 }
 
 @keyframes float {
