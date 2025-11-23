@@ -105,7 +105,7 @@ nav {
 }
 
 .d20-icon {
-    height: 3vh;
+    height: 3.6vh;
     width: auto;
     animation: float 3s ease-in-out infinite;
     opacity: 0.9;
@@ -370,7 +370,7 @@ footer {
     }
     
     .d20-icon {
-        height: 2.5vh;
+        height: 3vh;
     }
 
     .nav-links {
