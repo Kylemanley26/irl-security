@@ -98,20 +98,27 @@ nav {
     align-items: flex-start;
 }
 
-.nav-logo {
-    height: 60px;
-    width: auto;
-    filter: drop-shadow(0 0 5px rgba(0, 136, 255, 0.8))
-            drop-shadow(0 0 10px rgba(0, 136, 255, 0.6))
-            drop-shadow(0 0 20px rgba(0, 136, 255, 0.4));
-    transition: all 0.3s ease;
+.brand-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-.nav-logo:hover {
-    filter: drop-shadow(0 0 10px rgba(0, 136, 255, 1))
-            drop-shadow(0 0 20px rgba(0, 136, 255, 0.8))
-            drop-shadow(0 0 30px rgba(0, 136, 255, 0.6));
-    transform: scale(1.05);
+.d20-icon {
+    height: 3vh;
+    width: auto;
+    filter: drop-shadow(0 0 3px rgba(0, 136, 255, 0.8))
+            drop-shadow(0 0 6px rgba(0, 136, 255, 0.5));
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
 }
 
 .nav-links {
@@ -362,8 +369,8 @@ footer {
         gap: 1rem;
     }
     
-    .nav-logo {
-        height: 50px;
+    .d20-icon {
+        height: 2.5vh;
     }
 
     .nav-links {
