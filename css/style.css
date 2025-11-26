@@ -133,7 +133,8 @@ nav {
     text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
     color: #08f;
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
@@ -278,6 +279,12 @@ section {
 
 .service-card:hover .service-icon {
     transform: translateY(-2px);
+}
+
+.service-icon-text {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
 }
 
 .service-card h3 {
